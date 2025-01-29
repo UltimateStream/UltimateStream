@@ -11,7 +11,7 @@ export const genres = [
 
 export function createManifest() {
   return {
-    id: 'com.stremio.torrentio.catalog.addon',
+    id: 'com.stremio.ultimatestream.catalog.addon',
     version: '1.0.2',
     name: 'Torrent Catalogs',
     description: 'Provides catalogs for movies/series/anime based on top seeded torrents. Requires Kitsu addon for anime.',

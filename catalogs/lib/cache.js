@@ -4,7 +4,7 @@ const CATALOG_TTL = 24 * 60 * 60 * 1000; // 24 hours
 
 const MONGO_URI = process.env.MONGODB_URI;
 
-const remoteCache = MONGO_URI && new KeyvMongo(MONGO_URI, { collection: 'torrentio_catalog_collection' });
+const remoteCache = MONGO_URI && new KeyvMongo(MONGO_URI, { collection: 'ultimatestream_catalog_collection' });
 
 async function cacheWrap(cache, key, method, ttl) {
   if (!cache) {
